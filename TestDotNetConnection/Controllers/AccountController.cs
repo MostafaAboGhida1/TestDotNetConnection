@@ -48,6 +48,10 @@ namespace TestDotNetConnection.Controllers
                 _userManager = value;
             }
         }
+        public void test ()
+        {
+           
+        }
 
         public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
 
